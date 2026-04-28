@@ -1,0 +1,35 @@
+{
+  "name": "dokument-ai-server",
+  "version": "1.0.0",
+  "description": "DokumentAI - AI-drevet dokumentbehandling for norske bedrifter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "node lib/db/migrations/run.js",
+    "seed": "node lib/db/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0",
+    "pg": "^8.13.0",
+    "bcryptjs": "^2.4.3",
+    "express-rate-limit": "^7.4.0",
+    "morgan": "^1.10.0",
+    "sharp": "^0.33.5",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.1.1",
+    "tesseract.js": "^5.1.1",
+    "openai": "^4.68.0",
+    "exceljs": "^4.4.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "dotenv": "^16.4.5",
+    "helmet": "^8.0.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
