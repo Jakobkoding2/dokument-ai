@@ -1,17 +1,22 @@
-# DokumentAI
+# dokument-ai
 
-DokumentAI is a commercial AI document processing service for Norwegian businesses. It extracts structured data from Norwegian documents (invoices, receipts, payslips, contracts) using OCR and AI, and provides structured JSON/Excel/CSV outputs that can be imported into accounting/ERP systems.
+AI document processing platform for Norwegian businesses.
 
-## Features
+## Overview
 
-- Multi-tenant API with Node.js and PostgreSQL
-- OCR and AI extraction pipeline tailored for Norwegian documents
-- React dashboard for uploads, history, exports, and settings
-- GDPR-oriented cleanup and secure processing flow
+Extracts structured data from unstructured business documents — invoices, receipts, contracts, and payslips — and returns clean, normalized output that can feed directly into accounting or ERP systems.
 
-## Tech Stack
+## Supported document types
 
-- Backend: Node.js, Express, PostgreSQL
-- AI / OCR: Tesseract, Azure OpenAI
-- Frontend: React, Vite, Tailwind CSS
-- Deployment: Docker, Docker Compose
+- Invoices
+- Receipts
+- Contracts
+- Payslips
+
+## Tech
+
+JavaScript · AI extraction models
+
+## Background
+
+Norwegian businesses process high volumes of documents manually. dokument-ai reduces that overhead by automating extraction and normalization.
